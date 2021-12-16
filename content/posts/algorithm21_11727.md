@@ -1,10 +1,8 @@
 ---
-title: AlgorithmStudy_백준 11727"
+title: "AlgorithmStudy_백준 11727"
 date: 2021-12-16T23:08:56+09:00
 tags: ["csharp", "알고리즘", " 백준", "빠른제곱알고리즘"]
 categories: ["algorithm"]
-series: [""]
-chapter: [""]
 author: [""]
 ShowReadingTime: true
 ShowBreadCrumbs: false
@@ -12,7 +10,7 @@ ShowPostNavLinks: true
 ShowCodeCopyButtons: true
 ShowCreativeCommons: true
 showToc: true
-TocOpen: false
+TocOpen: true
 comments: true
 disableShare: false
 searchHidden: false
