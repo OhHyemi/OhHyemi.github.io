@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>dictionary on Hyemi&#39;s Blog</title>
+    <link>https://ohhyemi.github.io/tags/dictionary/</link>
+    <description>Recent content in dictionary on Hyemi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 15 Dec 2021 21:14:39 +0900</lastBuildDate><atom:link href="https://ohhyemi.github.io/tags/dictionary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HashTable: 해시테이블</title>
+      <link>https://ohhyemi.github.io/posts/studying16_hash/</link>
+      <pubDate>Wed, 15 Dec 2021 21:14:39 +0900</pubDate>
+      
+      <guid>https://ohhyemi.github.io/posts/studying16_hash/</guid>
+      <description>해시가 뭐야? 🧐  해시(Hash)는 키 값을 해시 함수(Hash function)으로 해싱하여 해시테이블의 특정 위치로 직접 엑세스하도록 만든 방식이다.
+ 해시테이블이 뭐야? 🧐  해시 테이블은 연관배열 구조를 이용하여 키(key)에 결과 값(value)을 저장하는 자료구조이다.
+ 연관배열 구조(associative array)란, 키(key) 1개와 값(value) 1개가 1:1로 연관되어 있는 자료구조이다. 따라서 키(key)를 이용하여 값(value)을 도출할 수 있다.
+  key 와 value는 일대일 매핑으로 같은 value값을 가질 순 있어도, 같은 key값은 가지지 못한다.
+1. 해시테이블(HashTable) 클래스  Non-generic 클래스.</description>
+    </item>
+    
+  </channel>
+</rss>
