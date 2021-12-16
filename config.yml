@@ -97,8 +97,8 @@ params:
       url: "mailto:gpal1014@naver.com"
     - name: github
       url: "https://github.com/OhHyemi"
-    - name: instagram
-      url: "https://instagram.com/charming_tuna"
+    # - name: instagram
+    #   url: "https://instagram.com/charming_tuna"
     # - name: twitch
     #   url: "https://www.twitch.tv/charming_tuna"
     - name: link
@@ -168,7 +168,7 @@ menu:
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 taxonomies:
-  #series: series
+  series: series
   chapter: chapter
   category: categories
   tag: tags
