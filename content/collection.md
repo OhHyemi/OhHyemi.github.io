@@ -32,4 +32,12 @@ menu:
       hidden: false
       image: "/logo/logo-algorithm.png"
       alt: "algorithm"
+
+  - title: "📄 Git"
+    description: "Git 학습하면서 정리한 글"
+    url: "/categories/git/"
+    cover:
+      hidden: false
+      image: "/logo/logo-git.png"
+      alt: "git"    
 ---

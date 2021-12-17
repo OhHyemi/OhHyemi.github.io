@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ohhyemi.github.io/categories/</loc>
+    <lastmod>2021-12-17T21:20:43+09:00</lastmod>
+  </url><url>
+    <loc>https://ohhyemi.github.io/tags/git/</loc>
+    <lastmod>2021-12-17T21:20:43+09:00</lastmod>
+  </url><url>
+    <loc>https://ohhyemi.github.io/categories/git/</loc>
+    <lastmod>2021-12-17T21:20:43+09:00</lastmod>
+  </url><url>
+    <loc>https://ohhyemi.github.io/posts/studying17_git1/</loc>
+    <lastmod>2021-12-17T21:20:43+09:00</lastmod>
+  </url><url>
+    <loc>https://ohhyemi.github.io/</loc>
+    <lastmod>2021-12-17T21:20:43+09:00</lastmod>
+  </url><url>
+    <loc>https://ohhyemi.github.io/posts/</loc>
+    <lastmod>2021-12-17T21:20:43+09:00</lastmod>
+  </url><url>
+    <loc>https://ohhyemi.github.io/tags/</loc>
+    <lastmod>2021-12-17T21:20:43+09:00</lastmod>
+  </url><url>
     <loc>https://ohhyemi.github.io/tags/%EB%B0%B1%EC%A4%80/</loc>
     <lastmod>2021-12-16T23:08:56+09:00</lastmod>
   </url><url>
@@ -11,19 +32,7 @@
     <loc>https://ohhyemi.github.io/posts/algorithm21_11727/</loc>
     <lastmod>2021-12-16T23:08:56+09:00</lastmod>
   </url><url>
-    <loc>https://ohhyemi.github.io/categories/</loc>
-    <lastmod>2021-12-16T23:08:56+09:00</lastmod>
-  </url><url>
     <loc>https://ohhyemi.github.io/tags/csharp/</loc>
-    <lastmod>2021-12-16T23:08:56+09:00</lastmod>
-  </url><url>
-    <loc>https://ohhyemi.github.io/</loc>
-    <lastmod>2021-12-16T23:08:56+09:00</lastmod>
-  </url><url>
-    <loc>https://ohhyemi.github.io/posts/</loc>
-    <lastmod>2021-12-16T23:08:56+09:00</lastmod>
-  </url><url>
-    <loc>https://ohhyemi.github.io/tags/</loc>
     <lastmod>2021-12-16T23:08:56+09:00</lastmod>
   </url><url>
     <loc>https://ohhyemi.github.io/tags/%EB%B9%A0%EB%A5%B8%EC%A0%9C%EA%B3%B1%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</loc>
