@@ -17,6 +17,13 @@ menu:
       hidden: false
       image: "/logo/logo-csharp.png"
       alt: "csharp"
+  - title: "📄 UX/UI"
+    description: "UX/UI 학습하면서 정리한 글"
+    url: "/categories/uxui/"
+    cover:
+      hidden: false
+      image: "/logo/logo-uxui.jpg"
+      alt: "uxui"
   - title: "📄 Unity"
     description: "Unity 학습하면서 정리한 글"
     url: "/categories/unity/"

@@ -5,7 +5,19 @@
     <link>https://ohhyemi.github.io/posts/</link>
     <description>Recent content in Posts on Hyemi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 18 Dec 2021 16:40:54 +0900</lastBuildDate><atom:link href="https://ohhyemi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Dec 2021 01:11:13 +0900</lastBuildDate><atom:link href="https://ohhyemi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>제이콥의 법칙</title>
+      <link>https://ohhyemi.github.io/posts/studying20_ux1/</link>
+      <pubDate>Sun, 19 Dec 2021 01:11:13 +0900</pubDate>
+      
+      <guid>https://ohhyemi.github.io/posts/studying20_ux1/</guid>
+      <description>✏️ 포스팅 목적 최근에 산 UX/UI의 10가지 심리학 법칙(조 야블로스키 저)라는 책을 읽고 각 법칙에 대해 공부하고 정리하려고 한다.
+프로그래머가 UI/UX심리학 법칙을 왜 공부하냐고 의문을 가질 수도 있지만, 내가 목표하는 것은 UI/UX프로그래머이기 때문에! 그리고 프로그래밍에만 한정하고 싶지 않다. 이후에는 디자인까지 해보고싶은&amp;hellip;!!!!
+디자인은 디자이너가 하지만 어쨌든 그에 대한 반응을 프로그래머가 구현을 해야하기 또한 구현되는 모든 요소들은 프로그래머가 가장 먼저 테스트하고 가장 많이 경험한다.
+디자이너 뿐 아니라 프로그래머가 이러한 지식을 가지고 있다면 좀 더 사용자의 기대에 부흥하는?</description>
+    </item>
+    
     <item>
       <title>const와 readonly</title>
       <link>https://ohhyemi.github.io/posts/studying19_const_readonly/</link>
@@ -13,7 +25,7 @@
       
       <guid>https://ohhyemi.github.io/posts/studying19_const_readonly/</guid>
       <description>상수가 뭐야? 🧐  상수(常數, constant)란 수식에서 변하지 않는 값을 뜻한다. 이것은 변하는 값 변수와 반대이다.
- 종류는 뭐가 있을까? 🧐  const readonly   값 형식: 데이터자체임으로 필드 변경이 불가능 하다. 참조 형식: 데이터에 대한 참조이기 때문에 참조 개체 자체는 변경이 불가능 하지만 개체가 만약 클래스라면 멤버 변수를 바꾸는 것은 가능하다.  💚 예시
+ 종류는 뭐가 있을까? 🧐  const readonly   값 형식: 데이터자체임으로 필드 변경이 불가능 하다. 참조 형식: 데이터에 대한 참조이기 때문에 참조 개체 자체는 변경이 불가능 하지만 개체가 만약 클래스 인스턴스라면 멤버 변수를 바꾸는 것은 가능하다.  💚 예시
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15  class Program { private readonly static Test test = new Test(); static void Main(string[] args) { //개체 참조를 바꾸는 것은 불가능  test = test1;//오류!</description>
     </item>
     

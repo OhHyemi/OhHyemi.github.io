@@ -81,6 +81,27 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>BFS: 너비우선탐색, DFS: 깊이우선탐색(1)
+</h2>
+</header>
+<section class=entry-content>
+<p>음… 나는 탐색알고리즘을 매우 어려워 하는 사람이다…😭😭 이것에 이어서 길찾기를 무서워하는데..😱 프로그래머로서 이런것들은 좀 이겨내야하지 않을까? 라는 생각이 들어서.. 원래 무서운 것은 몰라서 그런거라고 했으니, 나는 이 녀석들을 공부해서 안무서워해야겠다.😋😋😋
+Graph(그래프)는 무엇일까? 🧐 BFS, DFS를 알기전에 그래프라는 자료구조를 먼저 알아야한다.
+그래프는 정점(V)과 간선(E)들의 집합이다. 간선은 정점과 정점 사이를 직접 연결하는 선을 말한다. G = (V,E)로 수학적으로 표기한다. 💚 그래프의 표현방법
+인접 행렬 1 2 3 4 5 6 7 8 9 int V; //정점의 갯수 int E; //간선의 갯수 int[,] Graph = new int[V, V]; //N x N 행렬 for (int i = 0; i &lt; E; i++) { Graph[v1,v2] = 1;//방향 그래프 인접행렬로의 표현 } 인접 리스트 1 2 3 4 5 6 7 8 9 10 11 12 13 int V; //정점의 갯수 int E; //간선의 갯수 List&lt;int>[] Graph = new List&lt;int>[V + 1]; for (int i = 1; i &lt; N + 1; i++) { Graph[i] = new List&lt;int>(); foreach(v in AdjacencyVertices) { Graph[i]....</p>
+</section>
+<footer class=entry-footer><span title="2021-11-29 21:40:04 +0900 KST">2021년 11월 29일</span>
+<ul class=post-tags>
+<li><a class=button href=https://ohhyemi.github.io/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/>알고리즘</a></li>
+<li><a class=button href=https://ohhyemi.github.io/tags/bfs/>bfs</a></li>
+<li><a class=button href=https://ohhyemi.github.io/tags/dfs/>dfs</a></li>
+<li><a class=button href=https://ohhyemi.github.io/tags/%EB%84%88%EB%B9%84%EC%9A%B0%EC%84%A0%ED%83%90%EC%83%89/>너비우선탐색</a></li>
+<li><a class=button href=https://ohhyemi.github.io/tags/%EA%B9%8A%EC%9D%B4%EC%9A%B0%EC%84%A0%ED%83%90%EC%83%89/>깊이우선탐색</a></li>
+</ul></footer>
+<a class=entry-link aria-label="post link to BFS: 너비우선탐색, DFS: 깊이우선탐색(1)" href=https://ohhyemi.github.io/posts/studying7_bfs_dfs/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>AlgorithmStudy_백준 10773
 </h2>
 </header>
@@ -153,26 +174,6 @@ Project Setting > Player 에서 사용이 체크가 되어있는지 확인. Stat
 <li><a class=button href=https://ohhyemi.github.io/tags/batch/>Batch</a></li>
 </ul></footer>
 <a class=entry-link aria-label="post link to Draw Call: 드로우콜(2)" href=https://ohhyemi.github.io/posts/studying5_drawcall2/></a>
-</article>
-<article class=post-entry>
-<figure class=entry-cover><img loading=lazy src=https://ohhyemi.github.io/logo/logo-unity-01.png alt=unity>
-</figure>
-<header class=entry-header>
-<h2>Draw Call: 드로우콜(1)
-</h2>
-</header>
-<section class=entry-content>
-<p>오늘 비대면 면접을 보았는데, 이전 프로젝트에서 드로우콜을 줄이려는 노력을 했냐고 물어보셨다.나는 딱히 드로우콜에 대해서 생각을 해본 적이 별로 없어서 없다고 말했지만, 이 부분에 대해 좀 더 알 필요가 있다고 생각했다. 그래서 오늘의 공부는 드로우콜!
-Draw Call이 뭐야? 🧐 간단 요약 정의: CPU가 GPU에 오브젝트를 그리라는 명령을 호출하는 것. 💚세부 설명
-오브젝트가 실제 화면에 렌더링 되려면 CPU -> GPU 정보 전달 필요함. 정보: 메시, 텍스처, 쉐이더, 트랜스폼, 알파블렌딩 여부 등이 존재....</p>
-</section>
-<footer class=entry-footer><span title="2021-11-24 23:19:40 +0900 KST">2021년 11월 24일</span>
-<ul class=post-tags>
-<li><a class=button href=https://ohhyemi.github.io/tags/unity/>unity</a></li>
-<li><a class=button href=https://ohhyemi.github.io/tags/drawcall/>DrawCall</a></li>
-<li><a class=button href=https://ohhyemi.github.io/tags/batch/>Batch</a></li>
-</ul></footer>
-<a class=entry-link aria-label="post link to Draw Call: 드로우콜(1)" href=https://ohhyemi.github.io/posts/studying4_drawcall1/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

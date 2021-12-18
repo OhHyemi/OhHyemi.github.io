@@ -13,7 +13,7 @@
       
       <guid>https://ohhyemi.github.io/posts/studying19_const_readonly/</guid>
       <description>상수가 뭐야? 🧐  상수(常數, constant)란 수식에서 변하지 않는 값을 뜻한다. 이것은 변하는 값 변수와 반대이다.
- 종류는 뭐가 있을까? 🧐  const readonly   값 형식: 데이터자체임으로 필드 변경이 불가능 하다. 참조 형식: 데이터에 대한 참조이기 때문에 참조 개체 자체는 변경이 불가능 하지만 개체가 만약 클래스라면 멤버 변수를 바꾸는 것은 가능하다.  💚 예시
+ 종류는 뭐가 있을까? 🧐  const readonly   값 형식: 데이터자체임으로 필드 변경이 불가능 하다. 참조 형식: 데이터에 대한 참조이기 때문에 참조 개체 자체는 변경이 불가능 하지만 개체가 만약 클래스 인스턴스라면 멤버 변수를 바꾸는 것은 가능하다.  💚 예시
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15  class Program { private readonly static Test test = new Test(); static void Main(string[] args) { //개체 참조를 바꾸는 것은 불가능  test = test1;//오류!</description>
     </item>
     
