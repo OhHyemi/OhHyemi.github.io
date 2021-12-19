@@ -102,7 +102,7 @@ static void Main(string[] args)
 }
 ```
 ### 🖌 내가 만든 이미지로 이해하는 foreach작동 방법
-![이미지](images/studying21.png)
+![이미지](/images/studying21.png)
 
 ### 그렇다면 반복문 {{< color color="#FFD400" text="for" >}}와 어떠한 차이가 있을까? 🧐
 
