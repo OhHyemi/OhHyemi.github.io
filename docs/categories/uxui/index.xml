@@ -5,7 +5,18 @@
     <link>https://ohhyemi.github.io/categories/uxui/</link>
     <description>Recent content in uxui on Hyemi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 19 Dec 2021 17:46:38 +0900</lastBuildDate><atom:link href="https://ohhyemi.github.io/categories/uxui/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Dec 2021 15:28:48 +0900</lastBuildDate><atom:link href="https://ohhyemi.github.io/categories/uxui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>힉의 법칙</title>
+      <link>https://ohhyemi.github.io/posts/studying23_ux3/</link>
+      <pubDate>Tue, 21 Dec 2021 15:28:48 +0900</pubDate>
+      
+      <guid>https://ohhyemi.github.io/posts/studying23_ux3/</guid>
+      <description>🔎힉의 법칙  의사결정에 걸리는 시간은 선택지의 개수와 복잡성과 비례해 늘어난다.
+ 🔎인지 부하  인터페이스를 익히고 인터랙션하는 데 필요한 정신적 자원의 양을 인지부하(cognitivve load)라고 한다.
+  제품이나 서비스를 처음 접할 때 사용 방법을 익히는 것, 사용하는 것까지 모두 정신적 자원이 소모된다. 프로세스를 익히는 과정과 동시에 처음의 목표를 계속하여 기억해야한다. 익혀야할 정보가 많으면 목표를 잊어버릴 수도 있고 중요한 정보를 잊을 수도 있다. 결과적으로 작업이 더 어려워지는 현상을 낳는다.  💛 인지 부하의 예 💚 복잡한 티비 리모컨 나도 너무 동감하는 예시이다.</description>
+    </item>
+    
     <item>
       <title>피츠의 법칙</title>
       <link>https://ohhyemi.github.io/posts/sutdying22_ux2/</link>
