@@ -5,7 +5,17 @@
     <link>https://ohhyemi.github.io/categories/git/</link>
     <description>Recent content in git on Hyemi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 17 Dec 2021 21:20:43 +0900</lastBuildDate><atom:link href="https://ohhyemi.github.io/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Dec 2021 17:34:19 +0900</lastBuildDate><atom:link href="https://ohhyemi.github.io/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git(2)</title>
+      <link>https://ohhyemi.github.io/posts/studying24_git2/</link>
+      <pubDate>Thu, 23 Dec 2021 17:34:19 +0900</pubDate>
+      
+      <guid>https://ohhyemi.github.io/posts/studying24_git2/</guid>
+      <description>HEAD가 뭐야? 🧐  커밋을 가르키는 포인터 최종적인 커밋 작업의 위치를 가리킴. 최소 한 번 이상 커밋을 해야 생김.  저장소에 대해 알아보자 🧐 💛 원격 저장소  서버 저장소는 다른 말로 원격(remote) 저장소라고도 합니다. 서버 저장소는 로컬 저장소의 코드를 복제한 복사본이라고 할 수 있습니다. 서버를 이용하면 코드를 안전하게 보관할 수 있습니다. 또 서버에 있는 소스 코드는 다른 사람들과 공유하고 협업하여 개발을 진행할 수도 있습니다.
+  어디서든 저장 및 내려받기 가능!</description>
+    </item>
+    
     <item>
       <title>Git(1)</title>
       <link>https://ohhyemi.github.io/posts/studying17_git1/</link>

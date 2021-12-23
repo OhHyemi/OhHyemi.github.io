@@ -21,7 +21,7 @@ cover:
   image: ""
   alt: ""
 
-draft: true
+draft: false
 ---
 
 ## {{< color color="#FFD400" text="HEAD" >}}가 뭐야? 🧐
