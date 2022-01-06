@@ -81,6 +81,31 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Hugo와 MarkDown: Text Color
+</h2>
+</header>
+<section class=entry-content>
+<p>블로그를 Hugo를 이용해서 만들었는데, 열심히 html 코드로 텍스트에 컬러를 넣었지만 빌드를 하고 보니 텍스에 컬러가 적용이 되어있지않았다!
+알고 보니.. MarkDown에서는 본래 text color change를 지원하지 않는다.
+그리고 이것을 html을 이용해서 그 기능을 수행했던 것. 그런데 Hugo자체에서 html을 막아놨던 것!😑😑
+그냥 사용하는 방법으로는 unsafe를 True로 바꾸면 되지만... (막은데에는 이유가 있을거라고 생각하고...다른 방법을 선택!)
+그래서 이런 html코드를 수행해주는 새로운 코드들을 적용 시켜줘야하는데 고것이 바로 Shortcode!
+참조
+Shortcode란 🧐 Shortcodes are simple snippets inside your content files calling built-in or custom templates....</p>
+</section>
+<footer class=entry-footer><span title="2021-11-14 21:31:11 +0900 KST">2021년 11월 14일</span>
+<ul class=post-tags>
+<li><a class=button href=https://ohhyemi.github.io/tags/markdown/>MarkDown</a></li>
+<li><a class=button href=https://ohhyemi.github.io/tags/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/>마크다운</a></li>
+<li><a class=button href=https://ohhyemi.github.io/tags/hugo/>Hugo</a></li>
+<li><a class=button href=https://ohhyemi.github.io/tags/%ED%9C%B4%EA%B3%A0/>휴고</a></li>
+<li><a class=button href=https://ohhyemi.github.io/tags/shortcode/>Shortcode</a></li>
+<li><a class=button href=https://ohhyemi.github.io/tags/textcolor/>TextColor</a></li>
+</ul></footer>
+<a class=entry-link aria-label="post link to Hugo와 MarkDown: Text Color" href=https://ohhyemi.github.io/posts/markdown1/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>AlgorithmStudy_백준 1181
 </h2>
 </header>
@@ -152,22 +177,6 @@ N과 K가 주어지면 (N, K)-요세푸스 순열을 구하는 프로그램을 �
 </ul></footer>
 <a class=entry-link aria-label="post link to AlgorithmStudy_백준 1920" href=https://ohhyemi.github.io/posts/algorithm5/></a>
 </article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>c#_string_StringBuilder
-</h2>
-</header>
-<section class=entry-content>
-<p>C# 공부 string/StringBuilder🤔 ✨string Immutable(불변) 변수. 값이 아닌 참조 변수. 내부적으로 문자열을 관리하는 버퍼를 가지고 있지않다. 대신 이를 참조하고 있다. string마다 새로운 클래스가 생성이 된다. 1 2 3 4 string a = "안녕" + "하세요"; //"안녕" "하세요" -> 각각의 string class 생성. //a string class 생성. //총 3개의 string class가 생성된다. -> 즉 garbage가 많이 생긴다. ✨StringBuilder 내부적으로 버퍼를 가지고 있다. 조합이 가능하다. 즉, 조합할 때마다 새롭게 class를 생성하지않는다....</p>
-</section>
-<footer class=entry-footer><span title="2021-11-12 04:21:22 +0900 KST">2021년 11월 12일</span>
-<ul class=post-tags>
-<li><a class=button href=https://ohhyemi.github.io/tags/csharp/>csharp</a></li>
-<li><a class=button href=https://ohhyemi.github.io/tags/string/>string</a></li>
-<li><a class=button href=https://ohhyemi.github.io/tags/stringbuilder/>StringBuilder</a></li>
-</ul></footer>
-<a class=entry-link aria-label="post link to c#_string_StringBuilder" href=https://ohhyemi.github.io/posts/csharp1/></a>
-</article>
 <footer class=page-footer>
 <nav class=pagination>
 <ul class=pagination>
@@ -181,9 +190,6 @@ N과 K가 주어지면 (N, K)-요세푸스 순열을 구하는 프로그램을 �
 </a>
 </li>
 <li class=pagination__item>
-<a href=/posts/page/5/ class=pagination__link>5</a>
-</li>
-<li class=pagination__item>
 <a href=/posts/page/6/ class=pagination__link>6</a>
 </li>
 <li class=pagination__item>
@@ -195,13 +201,16 @@ N과 K가 주어지면 (N, K)-요세푸스 순열을 구하는 프로그램을 �
 <li class=pagination__item>
 <a href=/posts/page/9/ class=pagination__link>9</a>
 </li>
+<li class=pagination__item>
+<a href=/posts/page/10/ class=pagination__link>10</a>
+</li>
 <li class="pagination__item pagination__item--next">
 <a href=https://ohhyemi.github.io/posts/page/9/ class="pagination__link pagination__link--next">
 다음 페이지<svg style="margin-right:-10px;vertical-align:middle" stroke="currentcolor" fill="currentcolor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
 </a>
 </li>
 <li class="pagination__item pagination__item--last">
-<a class="pagination__link pagination__link--last" href=https://ohhyemi.github.io/posts/page/9/><svg style="margin-right:-10px;vertical-align:middle" stroke="currentcolor" fill="currentcolor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg><svg style="vertical-align:middle" stroke="currentcolor" fill="currentcolor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+<a class="pagination__link pagination__link--last" href=https://ohhyemi.github.io/posts/page/10/><svg style="margin-right:-10px;vertical-align:middle" stroke="currentcolor" fill="currentcolor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg><svg style="vertical-align:middle" stroke="currentcolor" fill="currentcolor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
 </a>
 </li>
 </ul>
@@ -209,7 +218,7 @@ N과 K가 주어지면 (N, K)-요세푸스 순열을 구하는 프로그램을 �
 </footer>
 </main>
 <footer class=footer>
-<span>&copy; 2021 <a href=https://ohhyemi.github.io/>Hyemi's Blog</a></span>
+<span>&copy; 2022 <a href=https://ohhyemi.github.io/>Hyemi's Blog</a></span>
 <span>
 Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &

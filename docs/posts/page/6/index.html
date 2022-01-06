@@ -83,6 +83,26 @@
 <figure class=entry-cover><img loading=lazy src=https://ohhyemi.github.io/logo/logo-unity-01.png alt=unity>
 </figure>
 <header class=entry-header>
+<h2>Draw Call: 드로우콜(2)
+</h2>
+</header>
+<section class=entry-content>
+<p>이전 포스트에서는 드로우콜 자체에 대해 알아보았다면, 이번 포스트에서는 드로우콜을 줄이기 위해 알아야하는 것과 드로우콜을 줄이는 방법에 대해 알아보겠다.
+Batch, Batching이 뭐야? 🧐 Batch: 이전 포스트에서 언급했던 DP Call과 render state change들을 합친 넓은 의미의 드로우콜. Batching: 드로우콜을 줄이는 작업(어떠한 조건 아래 다수의 Batch를 하나로 만드는 작업). 💚Batching 세부 설명
+Project Setting > Player 에서 사용이 체크가 되어있는지 확인. Static Batching: Static 플래그가 체크되어있는 정적인 오브젝트에 적용 됨. 적용 방법 버텍스 연산을 런타임에 수행하지 않기때문에 Dynamic Batching 보다 효율적....</p>
+</section>
+<footer class=entry-footer><span title="2021-11-25 00:05:33 +0900 KST">2021년 11월 25일</span>
+<ul class=post-tags>
+<li><a class=button href=https://ohhyemi.github.io/tags/unity/>unity</a></li>
+<li><a class=button href=https://ohhyemi.github.io/tags/drawcall/>DrawCall</a></li>
+<li><a class=button href=https://ohhyemi.github.io/tags/batch/>Batch</a></li>
+</ul></footer>
+<a class=entry-link aria-label="post link to Draw Call: 드로우콜(2)" href=https://ohhyemi.github.io/posts/studying5_drawcall2/></a>
+</article>
+<article class=post-entry>
+<figure class=entry-cover><img loading=lazy src=https://ohhyemi.github.io/logo/logo-unity-01.png alt=unity>
+</figure>
+<header class=entry-header>
 <h2>Draw Call: 드로우콜(1)
 </h2>
 </header>
@@ -155,24 +175,6 @@ dž는 무조건 하나의 알파벳으로 쓰이고, d와 ž가 분리된 것�
 </ul></footer>
 <a class=entry-link aria-label="post link to AlgorithmStudy_백준 4673" href=https://ohhyemi.github.io/posts/algorithm12/></a>
 </article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Extenstion Method: 확장 메서드
-</h2>
-</header>
-<section class=entry-content>
-<p>유니티에서 여러가지 연습을 하려고 생각하고 있었을 때, 나만의 tween을 만들어 보고싶다고 생각했다. DoTween을 사용할 때 여러 함수들이 transform, image 등에서 부터 바로 DoTween 함수를 사용할 수 있었던 것이 기억에 남았다.
-나도 이런식으로 바로바로 접근할 수 있으면 좋겠다고 생각을 해서 방법을 찾아보니, Extenstion Method를 이용하면 되는 것!
-Extenstion Method가 뭐야? 🧐 특수한 종류의 static 메서드. 다른 클래스의 인스턴스 메서드인 것 처럼 사용되는 기능. 클래스, 구조체, 인터페이스 등에 적용 가능. 왜 사용하는거야?...</p>
-</section>
-<footer class=entry-footer><span title="2021-11-18 01:32:38 +0900 KST">2021년 11월 18일</span>
-<ul class=post-tags>
-<li><a class=button href=https://ohhyemi.github.io/tags/csharp/>csharp</a></li>
-<li><a class=button href=https://ohhyemi.github.io/tags/unity/>unity</a></li>
-<li><a class=button href=https://ohhyemi.github.io/tags/extenstion-method/>Extenstion Method</a></li>
-</ul></footer>
-<a class=entry-link aria-label="post link to Extenstion Method: 확장 메서드" href=https://ohhyemi.github.io/posts/studying2/></a>
-</article>
 <footer class=page-footer>
 <nav class=pagination>
 <ul class=pagination>
@@ -206,7 +208,7 @@ Extenstion Method가 뭐야? 🧐 특수한 종류의 static 메서드. 다른 �
 </a>
 </li>
 <li class="pagination__item pagination__item--last">
-<a class="pagination__link pagination__link--last" href=https://ohhyemi.github.io/posts/page/9/><svg style="margin-right:-10px;vertical-align:middle" stroke="currentcolor" fill="currentcolor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg><svg style="vertical-align:middle" stroke="currentcolor" fill="currentcolor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+<a class="pagination__link pagination__link--last" href=https://ohhyemi.github.io/posts/page/10/><svg style="margin-right:-10px;vertical-align:middle" stroke="currentcolor" fill="currentcolor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg><svg style="vertical-align:middle" stroke="currentcolor" fill="currentcolor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
 </a>
 </li>
 </ul>
@@ -214,7 +216,7 @@ Extenstion Method가 뭐야? 🧐 특수한 종류의 static 메서드. 다른 �
 </footer>
 </main>
 <footer class=footer>
-<span>&copy; 2021 <a href=https://ohhyemi.github.io/>Hyemi's Blog</a></span>
+<span>&copy; 2022 <a href=https://ohhyemi.github.io/>Hyemi's Blog</a></span>
 <span>
 Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &

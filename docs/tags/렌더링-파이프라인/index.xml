@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>렌더링 파이프라인 on Hyemi&#39;s Blog</title>
+    <link>https://ohhyemi.github.io/tags/%EB%A0%8C%EB%8D%94%EB%A7%81-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8/</link>
+    <description>Recent content in 렌더링 파이프라인 on Hyemi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 06 Jan 2022 10:55:19 +0900</lastBuildDate><atom:link href="https://ohhyemi.github.io/tags/%EB%A0%8C%EB%8D%94%EB%A7%81-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>렌더링 파이프라인</title>
+      <link>https://ohhyemi.github.io/posts/studying25_graphics1/</link>
+      <pubDate>Thu, 06 Jan 2022 10:55:19 +0900</pubDate>
+      
+      <guid>https://ohhyemi.github.io/posts/studying25_graphics1/</guid>
+      <description>✏️ 포스팅 목적 유니티 그래픽스 최적화 스타트업(오지현 저) 책을 보면서 최적화를 수행할 때 기본적인 렌더링 파이프라인의 이해가 필요하다고 생각했다. 이 책에서 나왔던 내용들을 정리해보는 시간!
+렌더링 파이프라인이란? 🧐  렌더링 파이프라인을 간단히 이야기하면, &amp;lsquo;3D 이미지를 2D래스터 이미지로 표현하기 위한 단계적인 방법&amp;rsquo; 을 의미합니다.
+ 렌더링의 진행 순서는 어떻게 될까? 🧐  렌더링 파이프라인에 진입 전 CPU에서 필요한 연산을 처리.   위치 정보, 애니메이션 정보 등이 바뀔 때 마다 메시의 버텍스에 모두 반영하는 연산이 필요함.</description>
+    </item>
+    
+  </channel>
+</rss>
