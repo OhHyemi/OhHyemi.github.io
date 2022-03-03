@@ -16,7 +16,7 @@ menu:
     cover:
       hidden: false
       image: "/logo/logo-csharp.png"
-      alt: "csharp"
+      alt: "effectiveCsharp"
 
   - title: "📄 Csharp"
     description: "Chsarp 학습하면서 정리한 글"
