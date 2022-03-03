@@ -12,7 +12,7 @@ cover:
 menu:
   - title: "📄 Effective Csharp"
     description: "Effective Chsarp 스터디하면서 정리한 글"
-    url: "/categories/effectiveCsharp/"
+    url: "/categories/effectivecsharp/"
     cover:
       hidden: false
       image: "/logo/logo-csharp.png"

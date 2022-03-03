@@ -2,7 +2,7 @@
 title: "Effective Csharp7,8"
 date: 2022-03-03T20:48:21+09:00
 tags: ["Effective Csharp"]
-categories: ["effectiveCsharp"]
+categories: ["effectivecsharp"]
 series: [""]
 chapter: [""]
 author: [""]
