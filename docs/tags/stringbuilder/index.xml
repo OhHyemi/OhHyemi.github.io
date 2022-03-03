@@ -12,7 +12,7 @@
       <pubDate>Fri, 12 Nov 2021 04:21:22 +0900</pubDate>
       
       <guid>https://ohhyemi.github.io/posts/csharp1/</guid>
-      <description>C# 공부 string/StringBuilder🤔 ✨string  Immutable(불변) 변수. 값이 아닌 참조 변수. 내부적으로 문자열을 관리하는 버퍼를 가지고 있지않다. 대신 이를 참조하고 있다. string마다 새로운 클래스가 생성이 된다.  1 2 3 4  string a = &amp;#34;안녕&amp;#34; + &amp;#34;하세요&amp;#34;; //&amp;#34;안녕&amp;#34; &amp;#34;하세요&amp;#34; -&amp;gt; 각각의 string class 생성. //a string class 생성. //총 3개의 string class가 생성된다. -&amp;gt; 즉 garbage가 많이 생긴다.   ✨StringBuilder  내부적으로 버퍼를 가지고 있다. 조합이 가능하다. 즉, 조합할 때마다 새롭게 class를 생성하지않는다.</description>
+      <description>C# 공부 string/StringBuilder🤔 ✨string  Immutable(불변) 변수. 값이 아닌 참조 변수. 내부적으로 문자열을 관리하는 버퍼를 가지고 있지않다. 대신 이를 참조하고 있다. string마다 새로운 클래스가 생성이 된다.  1 2 3 4  string a = &amp;#34;안녕&amp;#34; + &amp;#34;하세요&amp;#34;; //&amp;#34;안녕&amp;#34; &amp;#34;하세요&amp;#34; -&amp;gt; 각각의 string class 생성.  //a string class 생성. //총 3개의 string class가 생성된다. -&amp;gt; 즉 garbage가 많이 생긴다.   ✨StringBuilder  내부적으로 버퍼를 가지고 있다. 조합이 가능하다. 즉, 조합할 때마다 새롭게 class를 생성하지않는다.</description>
     </item>
     
   </channel>

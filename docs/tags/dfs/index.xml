@@ -25,7 +25,7 @@ BFS의 장단점? 🧐  장점   경로가 여러 개인 경우에도 최적해�
       <description>음&amp;hellip; 나는 탐색알고리즘을 매우 어려워 하는 사람이다&amp;hellip;😭😭 이것에 이어서 길찾기를 무서워하는데..😱 프로그래머로서 이런것들은 좀 이겨내야하지 않을까? 라는 생각이 들어서.. 원래 무서운 것은 몰라서 그런거라고 했으니, 나는 이 녀석들을 공부해서 안무서워해야겠다.😋😋😋
 Graph(그래프)는 무엇일까? 🧐 BFS, DFS를 알기전에 그래프라는 자료구조를 먼저 알아야한다.
  그래프는 정점(V)과 간선(E)들의 집합이다. 간선은 정점과 정점 사이를 직접 연결하는 선을 말한다. G = (V,E)로 수학적으로 표기한다.  💚 그래프의 표현방법
- 인접 행렬  1 2 3 4 5 6 7 8 9  int V; //정점의 갯수 int E; //간선의 갯수  int[,] Graph = new int[V, V]; //N x N 행렬  for (int i = 0; i &amp;lt; E; i++) { Graph[v1,v2] = 1;//방향 그래프 인접행렬로의 표현 }   인접 리스트  1 2 3 4 5 6 7 8 9 10 11 12 13  int V; //정점의 갯수 int E; //간선의 갯수  List&amp;lt;int&amp;gt;[] Graph = new List&amp;lt;int&amp;gt;[V + 1]; for (int i = 1; i &amp;lt; N + 1; i++) { Graph[i] = new List&amp;lt;int&amp;gt;(); foreach(v in AdjacencyVertices) { Graph[i].</description>
+ 인접 행렬  1 2 3 4 5 6 7 8 9  int V; //정점의 갯수 int E; //간선의 갯수 int[,] Graph = new int[V, V]; //N x N 행렬 for (int i = 0; i &amp;lt; E; i++) { Graph[v1,v2] = 1;//방향 그래프 인접행렬로의 표현 }   인접 리스트  1 2 3 4 5 6 7 8 9 10 11 12 13  int V; //정점의 갯수 int E; //간선의 갯수 List&amp;lt;int&amp;gt;[] Graph = new List&amp;lt;int&amp;gt;[V + 1]; for (int i = 1; i &amp;lt; N + 1; i++) { Graph[i] = new List&amp;lt;int&amp;gt;(); foreach(v in AdjacencyVertices) { Graph[i].</description>
     </item>
     
   </channel>

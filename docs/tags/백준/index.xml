@@ -18,7 +18,7 @@
 👉입력 첫째 줄에 n이 주어진다. (1 ≤ n ≤ 1,000)
 👉출력 첫째 줄에 2×n 크기의 직사각형을 채우는 방법의 수를 10,007로 나눈 나머지를 출력한다.
 🍑풀이
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73  using System; namespace Algorithm21 { class Beakjoon11727 { private static long mod = 10007; static void Main(string[] args) { var n = int.</description>
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72  using System; namespace Algorithm21 { class Beakjoon11727 { private static long mod = 10007; static void Main(string[] args) { var n = int.</description>
     </item>
     
     <item>
