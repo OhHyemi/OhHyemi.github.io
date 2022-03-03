@@ -21,7 +21,7 @@ cover:
   image: "/logo/logo-csharp.png"
   alt: ""
 
-draft: true
+draft: false
 ---
 
 스터디를 진행하고 있는데, Effecive C# 을 공부한 것을 남겨보려한다.
