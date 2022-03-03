@@ -10,6 +10,14 @@ useTag: false # Priority 2
 cover:
   hidden: false
 menu:
+  - title: "📄 Effective Csharp"
+    description: "Effective Chsarp 스터디하면서 정리한 글"
+    url: "/categories/effectiveCsharp/"
+    cover:
+      hidden: false
+      image: "/logo/logo-csharp.png"
+      alt: "csharp"
+
   - title: "📄 Csharp"
     description: "Chsarp 학습하면서 정리한 글"
     url: "/categories/csharp/"
@@ -17,6 +25,7 @@ menu:
       hidden: false
       image: "/logo/logo-csharp.png"
       alt: "csharp"
+
   - title: "📄 UX/UI"
     description: "UX/UI 학습하면서 정리한 글"
     url: "/categories/uxui/"
@@ -24,6 +33,7 @@ menu:
       hidden: false
       image: "/logo/logo-uxui.jpg"
       alt: "uxui"
+
   - title: "📄 Unity"
     description: "Unity 학습하면서 정리한 글"
     url: "/categories/unity/"
