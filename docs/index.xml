@@ -5,7 +5,25 @@
     <link>https://ohhyemi.github.io/</link>
     <description>Recent content on Hyemi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 04 Mar 2022 18:09:05 +0900</lastBuildDate><atom:link href="https://ohhyemi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Mar 2022 18:55:49 +0900</lastBuildDate><atom:link href="https://ohhyemi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Effective Csharp14</title>
+      <link>https://ohhyemi.github.io/posts/effective_14/</link>
+      <pubDate>Sun, 13 Mar 2022 18:55:49 +0900</pubDate>
+      
+      <guid>https://ohhyemi.github.io/posts/effective_14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effective Csharp11</title>
+      <link>https://ohhyemi.github.io/posts/effective_11/</link>
+      <pubDate>Sun, 13 Mar 2022 18:55:39 +0900</pubDate>
+      
+      <guid>https://ohhyemi.github.io/posts/effective_11/</guid>
+      <description>다른 느낌을 내보고싶어서 ^^ </description>
+    </item>
+    
     <item>
       <title>Effectivet Csharp9</title>
       <link>https://ohhyemi.github.io/posts/effectivet_9/</link>
